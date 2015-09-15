@@ -10,5 +10,6 @@ setup(name='metrodelay',
       include_package_data=True,
       install_requires=[''],
       entry_points = {"console_scripts": [
+            'dump_network=metrodelay.common.scripts.metronetwork:main'
             ]},
   )
